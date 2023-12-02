@@ -1,0 +1,362 @@
+.cuadricula0{
+    display:flex;   
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 5%;
+    border:3px solid black;
+    justify-content: center;
+    position: absolute;
+
+    left: 530px;
+    top:300px;
+    align-items:end;
+}
+
+.cuadricula1{
+    display:flex;   
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 5%;
+    border:3px solid black;
+    justify-content: center;
+    position: absolute;
+
+    left:530px;
+    top:715px;
+    align-items:end;
+}
+.cuadricula2{
+    display:flex;   
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 5%;
+    border:3px solid black;
+    justify-content: center;
+    position: absolute;
+
+    left:750px;
+    top: 715px;
+    align-items:end;
+}
+.cuadricula3{
+    display:flex;   
+    width: 200px;
+    height: 185px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 5%;
+    border:3px solid black;
+    justify-content: center;
+    position: absolute;
+
+    left:530px;
+    top:920px;
+    align-items:end;
+}
+
+.cuadricula4{
+    display:flex;   
+    width: 200px;
+    height:185px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 5%;
+    border:3px solid black;
+    justify-content: center;
+    position: absolute;
+
+    left:750px;
+    top:920px;
+    align-items:end;
+}
+.cuadricula5 {
+    display: flex;
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 5%;
+    border: 3px solid black;
+    justify-content: start;
+    position: absolute;
+    font-family: 'Triforce';
+    font-size: 24px;
+    left: 1025px;
+    top: 300px;
+    align-items: center; /* Centra verticalmente el contenido */
+    text-align: center; /* Centra horizontalmente el texto */
+    padding: 20px; /* Agrega margen alrededor del texto */
+}
+
+
+
+
+
+body{
+    background-image: url("../img/Zelda/Fondo.jpg");
+    background-size: cover; /* Ajusta la imagen al tamaño completo del elemento body */
+    
+    background-repeat: no-repeat; /* Evita que se repita la imagen de fondo */
+    font-family: 'Triforce';
+}
+
+/*Imagen de Titulo*/
+
+article {
+    align-items: center;
+    position: relative;
+    width: 250px;
+    left: 20%;
+    transition: all 0.3s ease;
+}
+
+article img:first-child {
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+
+article img:last-child {
+    position: absolute;
+    width: 75px;
+    bottom: 0;
+    left: 10%;
+    top: -30%;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: scale(1.6);
+    z-index: 3;
+}
+
+article:hover img:first-child {
+   filter: brightness(20%);
+   
+}
+
+article:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+@font-face {
+    font-family: 'Triforce';
+    src: url('../fonts/Zelda/Triforce.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+article::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 11px;
+    font-family: 'Triforce';
+    font-size: 50px;
+    transition: all 0.3s ease;
+    z-index: 2;
+
+
+
+    
+}
+
+article:hover::before {
+    display: block; /* Mostrar el texto cuando se hace hover */  
+}
+
+/*Personajes*/
+
+
+
+/*Girar tarjeta*/
+* {
+    font-family: 'Triforce';
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+/*Tarjetas de arriba*/
+.top-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin-top: 10%;
+    margin: 0% auto;
+    transform: translateX(10%);
+
+    
+}
+
+.card {
+    position: relative;
+    width: 220px;
+    height: 350px;
+    margin: 5px; /* Agregar un margen de 5px a cada tarjeta */
+    left: -10%;
+    margin-right: 100px;
+    margin-top: 200px; /* Ajustar la distancia vertical entre tarjetas */
+  }
+  
+  
+  .card-container {
+    font-family: 'Triforce';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start; /* Ajustar la alineación vertical */
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+
+
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    
+}
+
+.card .front img {
+        position: absolute;
+        width: 100%; /* Cambia el ancho al tamaño que desees */
+        height: 100%; /* Ajusta la altura automáticamente según el ancho */
+        object-fit: cover; /* Opcional, ajusta cómo la imagen se ajusta en el contenedor */
+    
+    
+    
+}
+
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify; /* Ajusta el texto justificado */
+    box-shadow: 0 5px 10px #000;
+  }
+  
+
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+
+}
+
+
+
+
+/*Grid ITEMS*/
+
+body {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.containerItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1000px;
+}
+
+.containerItems .cardItems {
+    max-width: 300px;
+    height: 215px;
+    background: white;
+    margin: 30px 10px 60px; /* Añadir margen inferior adicional para más espacio vertical */
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+}
+
+
+.containerItems .cardItems:hover {
+    height: 420px;
+}
+
+.containerItems .cardItems .imgBx {
+    align-items: center;
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -180px;
+    left: 0px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.containerItems .cardItems .imgBx img {
+    max-width: 100%; /* Asegura que las imágenes no se extiendan más allá de su contenedor */
+    max-height: 100%; /* Asegura que las imágenes no se distorsionen */
+    width: 100%; /* Aumenta el tamaño de las imágenes al 100% del ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente al ancho */
+    border-radius: 4px;
+}
+
+.containerItems .cardItems .content {
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+    text-align: justify ;
+}
+
+.containerItems .cardItems:hover .content {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -180px;
+    transition-delay: 0.3s;
+}

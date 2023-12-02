@@ -1,0 +1,869 @@
+.cuadricula0{
+    display:flex;   
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 5%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:1100px;
+    top:300px;
+    align-items:end;
+}
+
+.cuadricula1{
+    display:flex;   
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:450px;
+    top:500px;
+    align-items:center;
+    text-align: center;
+}
+
+.cuadricula2{
+    display:flex;   
+    width: 500px;
+    height: 2050px;
+   /* background-color: white;*/
+    display: flex;
+
+    border-radius: 1%;
+   
+    justify-content: start;
+    position: absolute;
+
+    left:450px;
+    top:950px;
+    align-items:start;
+}
+
+
+
+/*Cuadricula 7*5 1*/
+
+.cuadricula3{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    /*background-color: white;*/
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:465px;
+    top:775px;
+    align-items:start;
+}
+.cuadricula4{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:565px;
+    top:775px;
+    align-items:start;
+}
+
+.cuadricula5{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:665px;
+    top:775px;
+    align-items:start;
+}
+.cuadricula6{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:765px;
+    top:775px;
+    align-items:start;
+}
+.cuadricula7{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:865px;
+    top:775px;
+    align-items:start;
+}
+
+/*Cuadricula 7*5 2*/
+
+.cuadricula8{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:465px;
+    top:900px;
+    align-items:start;
+}
+.cuadricula9{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:565px;
+    top:900px;
+    align-items:start;
+}
+
+.cuadricula10{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:665px;
+    top:900px;
+    align-items:start;
+}
+.cuadricula11{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:765px;
+    top:900px;
+    align-items:start;
+}
+.cuadricula12{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:865px;
+    top:900px;
+    align-items:start;
+}
+
+/*Cuadricula 7*5 3*/
+
+.cuadricula13{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:465px;
+    top:1025px;
+    align-items:start;
+}
+.cuadricula14{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:565px;
+    top:1025px;
+    align-items:start;
+}
+
+.cuadricula15{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:665px;
+    top:1025px;
+    align-items:start;
+}
+.cuadricula16{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:765px;
+    top:1025px;
+    align-items:start;
+}
+.cuadricula17{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:865px;
+    top:1025px;
+    align-items:start;
+}
+
+/*Cuadricula 7*5 4*/
+
+.cuadricula18{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:465px;
+    top:1150px;
+    align-items:start;
+}
+.cuadricula19{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:565px;
+    top:1150px;
+    align-items:start;
+}
+
+.cuadricula20{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:665px;
+    top:1150px;
+    align-items:start;
+}
+.cuadricula21{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:765px;
+    top:1150px;
+    align-items:start;
+}
+.cuadricula22{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:865px;
+    top:1150px;
+    align-items:start;
+}
+
+/*Cuadricula 7*5 5*/
+
+.cuadricula23{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:465px;
+    top:1275px;
+    align-items:start;
+}
+.cuadricula24{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:565px;
+    top:1275px;
+    align-items:start;
+}
+
+.cuadricula25{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:665px;
+    top:1275px;
+    align-items:start;
+}
+.cuadricula26{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:765px;
+    top:1275px;
+    align-items:start;
+}
+.cuadricula27{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:865px;
+    top:1275px;
+    align-items:start;
+}
+
+/*Cuadricula 7*5 6*/
+
+.cuadricula28{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:465px;
+    top:1400px;
+    align-items:start;
+}
+.cuadricula29{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:565px;
+    top:1400px;
+    align-items:start;
+}
+
+.cuadricula30{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:665px;
+    top:1400px;
+    align-items:start;
+}
+.cuadricula31{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:765px;
+    top:1400px;
+    align-items:start;
+}
+.cuadricula32{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:865px;
+    top:1400px;
+    align-items:start;
+}
+
+/*Cuadricula 7*5 7*/
+
+.cuadricula33{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:465px;
+    top:1525px;
+    align-items:start;
+}
+.cuadricula34{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:565px;
+    top:1525px;
+    align-items:start;
+}
+
+.cuadricula35{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:665px;
+    top:1525px;
+    align-items:start;
+}
+.cuadricula36{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:765px;
+    top:1525px;
+    align-items:start;
+}
+.cuadricula37{
+    display:flex;   
+    width: 75px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+
+    border-radius: 1%;
+    border:3px solid black;
+    justify-content: start;
+    position: absolute;
+
+    left:865px;
+    top:1525px;
+    align-items:start;
+}
+
+.cuadricula38{
+    display:flex;   
+    width: 400px;
+    height: 800px;
+    display: flex;
+    justify-content: start;
+    position: absolute;
+
+    left:1000px;
+    top:800px;
+    align-items:start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background: url('..//img/Genshin Impact/Fondo.jpg');
+    
+}
+
+
+
+
+
+/*Cuadricula*/
+
+.cuadricula2 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "";
+    gap: 10px;
+  }
+
+  .cuadricula2 .grid-item {
+    width: 90%;
+    max-width: 256px;
+  }
+
+  .cuadricula2 img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+  }
+
+  .cuadricula2 img:hover {
+    transform: scale(1.2);
+  }
+
+  /* Agrega una imagen adicional y ocúltala por defecto */
+  .cuadricula2 .hover-image {
+    display: none;
+    position: absolute;
+    top: 10%;
+    
+    left: 150%;
+    
+    width: auto;
+    height: auto;
+    z-index: 9;
+  }
+
+  .cuadricula2 .grid-item:hover .hover-image {
+    display: block;
+  }
+
+  /* Estilos para el texto adicional */
+    
+.cuadricula2 .hover-text {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 900px;
+    
+    color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    z-index: 999;
+  }
+  
+  /* Estilos para mostrar el texto al hacer hover */
+  
+  .cuadricula2 .grid-item:hover .hover-text {
+    display: block;
+  }
+  
+  /* Estilos para la imagen adicional (ya definidos previamente) */
+  .cuadricula2 .hover-image {
+    display: none;
+    position: absolute;
+    top: -7%;
+    left: 108%;
+    width: 400px;
+    height: 800px;
+    border-radius: 5px;
+    border:3px solid black;
+    z-index: 9;
+  }
+  
+  .cuadricula2 .grid-item:hover .hover-image {
+    display: block;
+  }
+  
+  .divScroll{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "";
+    gap: 10px;
+    background-color: white;
+
+    width: 500px;
+    height: 500px;
+    border: 1px solid gray;
+    overflow: auto;
+   
+    
+  }
+
+
+  body{
+    
+    font-family: '8bitoperator JVE';
+   
+}
+@font-face {
+    font-family: 'HYWenHei 85W';
+    src: url('..//fonts/Genshin/zh-cn.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;  
+}
+
+
+
+
+  /*Imagen con titulo*/
+  
+
+article {
+    position: relative;
+    width: 250px;
+    left: 65%;
+    top: 150%;
+    transition: all 0.3s ease;
+}
+
+
+
+article img:first-child {
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+}
+
+article img:last-child {
+    position: absolute;
+    width: 160px;
+    bottom: 0;
+    left: 0%;
+    top: -35%;
+    right: 0;
+    margin: auto;
+    transform: translateY(25%);
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: scale(1.6);
+    z-index: 3;
+}
+
+article:hover img:first-child {
+   filter: brightness(20%);
+   
+}
+
+article:hover img:last-child {
+    opacity: 1;
+    transform: translateY(10%);
+}
+
+@font-face {
+    font-family: 'Super Mario 3D World Remake';
+    src: url('../fonts/supermario3dworldremake.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+article::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.0);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 11px;
+    font-family: 'Super Mario 3D World Remake';
+    font-size: 50px;
+    transition: all 0.3s ease;
+    z-index: 2;
+
+
+
+    
+}
+
+article:hover::before {
+    display: block; /* Mostrar el texto cuando se hace hover */  
+}
